@@ -5,13 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestStringFormatter {
 
-    StringFormatter stringFormatter;
-
-    @BeforeEach
-    public void initialiser () {
-
-        stringFormatter = new StringFormatter();
-    }
+    StringFormatter stringFormatter = new StringFormatter();
 
     @Test
     public void test1 () {
