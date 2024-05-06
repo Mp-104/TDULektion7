@@ -6,6 +6,8 @@ public class Main {
 
         StringFormatter stringFormatter = new StringFormatter();
 
+        System.out.println("Current JVM version -" + System.getProperty("java.version"));
+
         stringFormatter.toNameFormat("TEsEloILHnt");
     }
 }

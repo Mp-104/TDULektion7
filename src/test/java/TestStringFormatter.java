@@ -15,4 +15,15 @@ public class TestStringFormatter {
 
         Assertions.assertEquals("Test", test);
     }
+
+    @Test
+    public void testFail () {
+
+        String input = "test";
+
+        String test = stringFormatter.toNameFormat(input);
+
+        Assertions.assertEquals("test", test);
+
+    }
 }
