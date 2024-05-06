@@ -1,10 +1,17 @@
 import org.example.StringFormatter;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TestStringFormatter {
 
-    StringFormatter stringFormatter = new StringFormatter();
+    StringFormatter stringFormatter;
+
+    @BeforeEach
+    public void initialiser () {
+
+        stringFormatter = new StringFormatter();
+    }
 
     @Test
     public void test1 () {
