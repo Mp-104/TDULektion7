@@ -17,13 +17,13 @@ public class TestStringFormatter {
     }
 
     @Test
-    public void testFail () {
+    public void testFailCorrected () {
 
         String input = "test";
 
         String test = stringFormatter.toNameFormat(input);
 
-        Assertions.assertEquals("test", test);
+        Assertions.assertEquals("Test", test);
 
     }
 }
